@@ -1,0 +1,120 @@
+@media (max-width: 700px) {
+    .small_screen_side_padding {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+/* If screen is large and high-resolution, the text will take up more width. Otherwise, the text will take up less width. */
+
+@media (min-width: 1440px) {
+    .center_text {
+        max-width: 50em !important;
+    }
+    .footer_center_text {
+        max-width: 50em !important;
+    }
+}
+body {
+    font-family: 'Roboto', "Helvetica", "Arial", sans-serif !important;
+    -moz-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background-color: #DFF1F5 !important;
+}
+.center_text {
+    margin: 0 auto;
+    /* 100em --> Text Closer to edges */
+    /* 0 em --> Text Closer to center */
+    max-width: 40em;
+}
+.footer_center_text {
+    margin: 0 auto;
+    /* 100em --> Text Closer to edges */
+    /* 0 em --> Text Closer to center */
+    max-width: 50em;
+    text-align: center;
+}
+p {
+    line-height: 1.5 !important;
+}
+#primer h2 {
+    color: #333333 !important;
+}
+#primer p {
+    color: #737373 !important;
+    font-size: 16px !important;
+}
+#about h2 {
+    color: #333333 !important;
+}
+#about h4 {
+    color: #737373 !important;
+    font-size: 20px !important;
+}
+#about p {
+    color: #737373 !important;
+    font-size: 16px !important;
+}
+#contact h2 {
+    color: #333333 !important;
+}
+#contact p {
+    color: #737373 !important;
+    font-size: 16px !important;
+}
+
+/*#resume {
+    color: #333333 !important;
+}*/
+
+header {
+    background-color: #053045 !important;
+    background-image: url("../images/bridge_header.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: none;
+    padding: 2vw 2em;
+    text-align: center;
+}
+header h1 {
+    color: #DFF1F5 !important;
+}
+.unselectable {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.social_links {
+    letter-spacing: 3px;
+    color: #DFF1F5 !important;
+}
+#pro_pic {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    vertical-align: top;
+    border: 5px solid #DFF1F5;
+    border-radius: 50%;
+}
+.link_styling a:link {
+    color: #0A3F70 !important;
+}
+.link_styling a:visited {
+    color: #0A3F70 !important;
+}
+.link_styling a:hover {
+    color: #032d53 !important;
+}
+.link_styling a:active {
+    color: #0A3F70 !important;
+}
+hr {
+    height: 1px !important;
+    background-color: #333333 !important;
+}
+footer p {
+    color: #737373 !important;
+    font-size: 16px !important;
+    padding-bottom: 1em;
+}
