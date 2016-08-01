@@ -51,7 +51,7 @@ p {
 }*/
 
 header {
-    background-color: #053045 !important;
+    background-color: #0D526B !important;
     background-image: url("../images/bridge_header_large.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -131,7 +131,12 @@ footer p {
 
 /* Sets the header background image to a lower resolution version. */
 
-@media (max-width: 1440px) {
+@media only screen, (max-width: 2560px), (min-resolution: 300dpi) and (orientation: landscape) {
+    header {
+        background-image: url("../images/bridge_header_medium.jpg") !important;
+    }
+}
+@media only screen, (max-width: 1600px), (min-resolution: 300dpi) and (orientation: portrait) {
     header {
         background-image: url("../images/bridge_header_small.jpg") !important;
     }
