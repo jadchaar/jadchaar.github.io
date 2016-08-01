@@ -93,9 +93,6 @@ header h1 {
     color: #0A3F70 !important;
 }
 hr {
-    /*height: 1px !important;
-    background-color: #333333 !important;
-    border: 0 !important;*/
     border: 0 !important;
     height: 1px !important;
     background-image: linear-gradient(to right, transparent, #333333, transparent);
