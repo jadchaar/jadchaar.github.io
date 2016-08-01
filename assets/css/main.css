@@ -111,7 +111,7 @@ footer p {
 
 /* Adds padding to the sides of the website to clean up visual look. */
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
     .small_screen_side_padding {
         padding-left: 2em;
         padding-right: 2em;
@@ -120,7 +120,7 @@ footer p {
 
 /* If screen is large and high-resolution, the text will take up more width. Otherwise, the text will take up less width. */
 
-@media (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     .center_text {
         max-width: 50em !important;
     }
@@ -131,8 +131,8 @@ footer p {
 
 /* Sets the header background image to a lower resolution version. */
 
-@media (max-width: 1440px) and handheld {
+@media (max-width: 1440px) {
     header {
-        background-image: url("../images/bridge_header_extra_small.jpg") !important;
+        background-image: url("../images/bridge_header_small.jpg") !important;
     }
 }
