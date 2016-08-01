@@ -93,8 +93,12 @@ header h1 {
     color: #0A3F70 !important;
 }
 hr {
-    height: 1px !important;
+    /*height: 1px !important;
     background-color: #333333 !important;
+    border: 0 !important;*/
+    border: 0 !important;
+    height: 1px !important;
+    background-image: linear-gradient(to right, transparent, #333333, transparent);
 }
 footer p {
     color: #737373 !important;
@@ -129,6 +133,6 @@ footer p {
 
 @media (max-width: 1440px) and handheld {
     header {
-        background-image: url("../images/bridge_header_small.jpg") !important;
+        background-image: url("../images/bridge_header_extra_small.jpg") !important;
     }
 }
