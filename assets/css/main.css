@@ -53,9 +53,7 @@ p {
 header {
     background-color: #0E5D78 !important;
     background-image: url("../images/space_header_large.jpeg");
-    /*background-image: url("../images/bridge_header_large.jpg");*/
     background-position: center center;
-    /*background-position: center bottom;*/
     background-repeat: no-repeat;
     background-size: cover;
     max-width: none;
@@ -63,6 +61,9 @@ header {
     text-align: center;
 }
 header h1 {
+    color: #FDFBFC !important;
+}
+header h2 {
     color: #FDFBFC !important;
 }
 .unselectable {
@@ -132,13 +133,11 @@ footer p {
 
 @media only screen, (max-width: 2560px), (min-resolution: 300dpi) and (orientation: landscape) {
     header {
-        /*background-image: url("../images/bridge_header_medium.jpg") !important;*/
         background-image: url("../images/space_header_medium.jpeg") !important;
     }
 }
 @media only screen, (max-width: 1600px), (min-resolution: 300dpi) and (orientation: portrait) {
     header {
-        /*background-image: url("../images/bridge_header_small.jpg") !important;*/
         background-image: url("../images/space_header_small.jpeg") !important;
     }
 }
