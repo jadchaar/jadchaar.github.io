@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', "Helvetica", "Arial", sans-serif !important;
     -moz-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: #DFF1F5 !important;
+    background-color: #FDFBFC !important;
 }
 .center_text {
     margin: 0 auto;
@@ -51,9 +51,11 @@ p {
 }*/
 
 header {
-    background-color: #0D526B !important;
-    background-image: url("../images/bridge_header_large.jpg");
-    background-position: center bottom;
+    background-color: #0E5D78 !important;
+    background-image: url("../images/space_header_large.jpeg");
+    /*background-image: url("../images/bridge_header_large.jpg");*/
+    background-position: center center;
+    /*background-position: center bottom;*/
     background-repeat: no-repeat;
     background-size: cover;
     max-width: none;
@@ -61,7 +63,7 @@ header {
     text-align: center;
 }
 header h1 {
-    color: #DFF1F5 !important;
+    color: #FDFBFC !important;
 }
 .unselectable {
     -moz-user-select: none;
@@ -70,14 +72,14 @@ header h1 {
 }
 .social_links {
     letter-spacing: 3px;
-    color: #DFF1F5 !important;
+    color: #FDFBFC !important;
 }
 #pro_pic {
     display: inline-block;
     height: 150px;
     width: 150px;
     vertical-align: top;
-    border: 5px solid #DFF1F5;
+    border: 5px solid #FDFBFC;
     border-radius: 50%;
 }
 .link_styling a:link {
@@ -130,11 +132,13 @@ footer p {
 
 @media only screen, (max-width: 2560px), (min-resolution: 300dpi) and (orientation: landscape) {
     header {
-        background-image: url("../images/bridge_header_medium.jpg") !important;
+        /*background-image: url("../images/bridge_header_medium.jpg") !important;*/
+        background-image: url("../images/space_header_medium.jpeg") !important;
     }
 }
 @media only screen, (max-width: 1600px), (min-resolution: 300dpi) and (orientation: portrait) {
     header {
-        background-image: url("../images/bridge_header_small.jpg") !important;
+        /*background-image: url("../images/bridge_header_small.jpg") !important;*/
+        background-image: url("../images/space_header_small.jpeg") !important;
     }
 }
