@@ -46,7 +46,7 @@ p {
     font-size: 16px !important;
 }
 header {
-    background-color: #303554 !important;
+    background-color: #0E5D78 !important;
     background-image: url("../images/space_header_large.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -56,9 +56,6 @@ header {
     text-align: center;
 }
 header h1 {
-    color: #FDFBFC !important;
-}
-header h2 {
     color: #FDFBFC !important;
 }
 .unselectable {
