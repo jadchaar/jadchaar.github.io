@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', "Helvetica", "Arial", sans-serif !important;
     -moz-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
     background-color: #FDFBFC !important;
 }
 .center_text {
@@ -34,7 +35,7 @@ p {
     color: #737373 !important;
     font-size: 20px !important;
 }
-#about p {
+#about p, q {
     color: #737373 !important;
     font-size: 16px !important;
 }
@@ -75,6 +76,70 @@ header h1 {
     border: 5px solid #FDFBFC;
     border-radius: 50%;
 }
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+@keyframes twitter_transform {
+    from {
+        color: #FDFBFC;
+    }
+    to {
+        color: #1DA1F2;
+    }
+}
+@keyframes instagram_transform {
+    0% {
+        color: #4D65D5;
+    }
+    25% {
+        color: #7436B0;
+    }
+    50% {
+        color: #C4327E;
+    }
+    75% {
+        color: #F06D38;
+    }
+    100% {
+        color: #FEE086;
+    }
+}
+@keyframes linkedin_transform {
+    from {
+        color: #FDFBFC;
+    }
+    to {
+        color: #0077B5;
+    }
+}
+.social_links_container {
+    text-align: center;
+}
+#link1, #link2, #link3 {
+    display: inline-block;
+}
+#link1:hover {
+    transition: 250ms linear;
+    transform: scale(1.2);
+}
+#link2:hover {
+    transition: 250ms linear;
+    transform: scale(1.2);
+}
+#link3:hover {
+    transition: 250ms linear;
+    transform: scale(1.2);
+}
+a#twitter_link:hover {
+    animation: twitter_transform 250ms linear both;
+}
+a#instagram_link:hover {
+    animation: instagram_transform 1000ms linear both infinite alternate;
+}
+a#linkedin_link:hover {
+    animation: linkedin_transform 250ms linear both;
+}
 .link_styling a:link {
     color: #0A3F70 !important;
 }
@@ -105,8 +170,8 @@ footer p {
 
 @media only screen and (max-width: 700px) {
     .small_screen_side_padding {
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }
 
