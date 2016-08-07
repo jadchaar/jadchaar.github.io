@@ -140,6 +140,59 @@ a#instagram_link:hover {
 a#linkedin_link:hover {
     animation: linkedin_transform 250ms linear both;
 }
+
+/*@keyframes twitter_transform_restore {
+    from {
+        color: #FDFBFC;
+    }
+    to {
+        color: #1DA1F2;
+    }
+}
+@keyframes instagram_transform_restore {
+    0% {
+        color: #4D65D5;
+    }
+    25% {
+        color: #7436B0;
+    }
+    50% {
+        color: #C4327E;
+    }
+    75% {
+        color: #F06D38;
+    }
+    100% {
+        color: #FEE086;
+    }
+}
+@keyframes linkedin_transform_restore {
+    from {
+        color: #FDFBFC;
+    }
+    to {
+        color: #0077B5;
+    }
+}
+a#twitter_link:active {
+    animation: twitter_transform_restore;
+}
+a#instagram_link:active {
+    animation: twitter_transform_restore;
+}
+a#linkedin_link:active {
+    animation: twitter_transform_restore;
+}
+a#twitter_link:visited {
+    animation: none;
+}
+a#instagram_link:visited {
+    animation: none;
+}
+a#linkedin_link:visited {
+    animation: none;
+}*/
+
 .link_styling a:link {
     color: #0A3F70 !important;
 }
@@ -188,55 +241,13 @@ footer p {
 
 /* Sets the header background image to a lower resolution version. */
 
-@media only screen, (max-width: 2560px), (min-resolution: 300dpi) and (orientation: landscape) {
+@media only screen, (max-width: 2560px), and (orientation: landscape) {
     header {
         background-image: url("../images/space_header_medium.jpeg") !important;
     }
-    #link1:hover {
-        transition: none !important;
-        transform: none !important;
-    }
-    #link2:hover {
-        transition: none !important;
-        transform: none !important;
-    }
-    #link3:hover {
-        transition: none !important;
-        transform: none !important;
-    }
-    a#twitter_link:hover {
-        animation: none !important;
-    }
-    a#instagram_link:hover {
-        animation: none !important;
-    }
-    a#linkedin_link:hover {
-        animation: none !important;
-    }
 }
-@media only screen, (max-width: 1600px), (min-resolution: 300dpi) and (orientation: portrait) {
+@media only screen, (max-width: 1600px), and (orientation: portrait) {
     header {
         background-image: url("../images/space_header_small.jpeg") !important;
-    }
-    #link1:hover {
-        transition: none !important;
-        transform: none !important;
-    }
-    #link2:hover {
-        transition: none !important;
-        transform: none !important;
-    }
-    #link3:hover {
-        transition: none !important;
-        transform: none !important;
-    }
-    a#twitter_link:hover {
-        animation: none !important;
-    }
-    a#instagram_link:hover {
-        animation: none !important;
-    }
-    a#linkedin_link:hover {
-        animation: none !important;
     }
 }
