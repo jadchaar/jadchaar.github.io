@@ -120,16 +120,16 @@ a {
     display: inline-block;
 }
 #link1:hover {
-    transition: 250ms linear;
-    transform: scale(1.2);
+    transition: 250ms ease-in-out;
+    transform: scale(1.1);
 }
 #link2:hover {
-    transition: 250ms linear;
-    transform: scale(1.2);
+    transition: 250ms ease-in-out;
+    transform: scale(1.1);
 }
 #link3:hover {
-    transition: 250ms linear;
-    transform: scale(1.2);
+    transition: 250ms ease-in-out;
+    transform: scale(1.1);
 }
 a#twitter_link:hover {
     animation: twitter_transform 250ms linear both;
@@ -192,9 +192,51 @@ footer p {
     header {
         background-image: url("../images/space_header_medium.jpeg") !important;
     }
+    #link1:hover {
+        transition: none !important;
+        transform: none !important;
+    }
+    #link2:hover {
+        transition: none !important;
+        transform: none !important;
+    }
+    #link3:hover {
+        transition: none !important;
+        transform: none !important;
+    }
+    a#twitter_link:hover {
+        animation: none !important;
+    }
+    a#instagram_link:hover {
+        animation: none !important;
+    }
+    a#linkedin_link:hover {
+        animation: none !important;
+    }
 }
 @media only screen, (max-width: 1600px), (min-resolution: 300dpi) and (orientation: portrait) {
     header {
         background-image: url("../images/space_header_small.jpeg") !important;
+    }
+    #link1:hover {
+        transition: none !important;
+        transform: none !important;
+    }
+    #link2:hover {
+        transition: none !important;
+        transform: none !important;
+    }
+    #link3:hover {
+        transition: none !important;
+        transform: none !important;
+    }
+    a#twitter_link:hover {
+        animation: none !important;
+    }
+    a#instagram_link:hover {
+        animation: none !important;
+    }
+    a#linkedin_link:hover {
+        animation: none !important;
     }
 }
