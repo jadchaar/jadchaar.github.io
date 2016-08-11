@@ -80,6 +80,24 @@ a {
     cursor: pointer;
     text-decoration: none;
 }
+.social_links_container {
+    text-align: center;
+}
+#link1, #link2, #link3 {
+    display: inline-block;
+}
+a#twitter_link:visited {
+    color: #FDFBFC;
+    transform: scale(1.0);
+}
+a#instagram_link:visited {
+    color: #FDFBFC;
+    transform: scale(1.0);
+}
+a#linkedin_link:visited {
+    color: #FDFBFC;
+    transform: scale(1.0);
+}
 @keyframes twitter_transform {
     from {
         color: #FDFBFC;
@@ -113,12 +131,6 @@ a {
         color: #0077B5;
     }
 }
-.social_links_container {
-    text-align: center;
-}
-#link1, #link2, #link3 {
-    display: inline-block;
-}
 #link1:hover {
     transition: 250ms ease-in-out;
     transform: scale(1.1);
@@ -140,59 +152,6 @@ a#instagram_link:hover {
 a#linkedin_link:hover {
     animation: linkedin_transform 250ms linear both;
 }
-
-/*@keyframes twitter_transform_restore {
-    from {
-        color: #FDFBFC;
-    }
-    to {
-        color: #1DA1F2;
-    }
-}
-@keyframes instagram_transform_restore {
-    0% {
-        color: #4D65D5;
-    }
-    25% {
-        color: #7436B0;
-    }
-    50% {
-        color: #C4327E;
-    }
-    75% {
-        color: #F06D38;
-    }
-    100% {
-        color: #FEE086;
-    }
-}
-@keyframes linkedin_transform_restore {
-    from {
-        color: #FDFBFC;
-    }
-    to {
-        color: #0077B5;
-    }
-}
-a#twitter_link:active {
-    animation: twitter_transform_restore;
-}
-a#instagram_link:active {
-    animation: twitter_transform_restore;
-}
-a#linkedin_link:active {
-    animation: twitter_transform_restore;
-}
-a#twitter_link:visited {
-    animation: none;
-}
-a#instagram_link:visited {
-    animation: none;
-}
-a#linkedin_link:visited {
-    animation: none;
-}*/
-
 .link_styling a:link {
     color: #0A3F70 !important;
 }
@@ -241,12 +200,12 @@ footer p {
 
 /* Sets the header background image to a lower resolution version. */
 
-@media only screen, (max-width: 2560px), and (orientation: landscape) {
+@media only screen and (max-width: 2560px) {
     header {
         background-image: url("../images/space_header_medium.jpeg") !important;
     }
 }
-@media only screen, (max-width: 1600px), and (orientation: portrait) {
+@media only screen and (max-width: 1600px) {
     header {
         background-image: url("../images/space_header_small.jpeg") !important;
     }
