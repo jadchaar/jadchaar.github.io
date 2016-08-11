@@ -93,11 +93,27 @@ a#twitter_link:visited {
 a#instagram_link:visited {
     color: #FDFBFC;
     transform: scale(1.0);
+    animation-play-state: paused;
 }
 a#linkedin_link:visited {
     color: #FDFBFC;
     transform: scale(1.0);
 }
+
+/*a#twitter_link:active {
+    color: #FDFBFC;
+    transform: scale(1.0);
+}*/
+
+a#instagram_link:active {
+    animation-play-state: paused;
+}
+
+/*a#linkedin_link:active {
+    color: #FDFBFC;
+    transform: scale(1.0);
+}*/
+
 @keyframes twitter_transform {
     from {
         color: #FDFBFC;
