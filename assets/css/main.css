@@ -86,9 +86,6 @@ a {
 #link1, #link2, #link3 {
     display: inline-block;
 }
-
-/* Fallback if JS is not enabled. START */
-
 a#twitter_link:visited {
     color: #FDFBFC;
     transform: scale(1.0);
@@ -101,9 +98,6 @@ a#linkedin_link:visited {
     color: #FDFBFC;
     transform: scale(1.0);
 }
-
-/* Fallback if JS is not enabled. END */
-
 @keyframes twitter_transform {
     from {
         color: #FDFBFC;
@@ -112,7 +106,8 @@ a#linkedin_link:visited {
         color: #1DA1F2;
     }
 }
-@keyframes instagram_transform {
+
+/*@keyframes instagram_transform {
     0% {
         color: #4D65D5;
     }
@@ -128,7 +123,8 @@ a#linkedin_link:visited {
     100% {
         color: #FEE086;
     }
-}
+}*/
+
 @keyframes linkedin_transform {
     from {
         color: #FDFBFC;
@@ -157,11 +153,6 @@ a#instagram_link:hover {
 }
 a#linkedin_link:hover {
     animation: linkedin_transform 250ms linear both;
-}
-.restore_styles {
-    color: #FDFBFC;
-    transform: scale(1.0);
-    animation-play-state: paused;
 }
 .link_styling a:link {
     color: #0A3F70 !important;
