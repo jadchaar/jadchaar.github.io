@@ -3,7 +3,7 @@ body {
     -moz-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    background-color: #FDFBFC !important;
+    background-color: #FFFFFF !important;
 }
 .center_text {
     margin: 0 auto;
@@ -22,28 +22,28 @@ p {
     line-height: 1.6 !important;
 }
 #primer h2 {
-    color: #333333 !important;
+    color: #000000 !important;
 }
 #primer p {
-    color: #737373 !important;
+    color: #333333 !important;
     font-size: 16px !important;
 }
 #about h2 {
-    color: #333333 !important;
+    color: #000000 !important;
 }
 #about h4 {
-    color: #737373 !important;
+    color: #333333 !important;
     font-size: 20px !important;
 }
 #about p, q {
-    color: #737373 !important;
+    color: #333333 !important;
     font-size: 16px !important;
 }
 #contact h2 {
-    color: #333333 !important;
+    color: #000000 !important;
 }
 #contact p {
-    color: #737373 !important;
+    color: #333333 !important;
     font-size: 16px !important;
 }
 header {
@@ -57,7 +57,7 @@ header {
     text-align: center;
 }
 header h1 {
-    color: #FDFBFC !important;
+    color: #FFFFFF !important;
 }
 .unselectable {
     -moz-user-select: none;
@@ -66,14 +66,14 @@ header h1 {
 }
 .social_links {
     letter-spacing: 3px;
-    color: #FDFBFC !important;
+    color: #FFFFFF !important;
 }
 #pro_pic {
     display: inline-block;
     height: 150px;
     width: 150px;
     vertical-align: top;
-    border: 5px solid #FDFBFC;
+    border: 5px solid #FFFFFF;
     border-radius: 50%;
 }
 a {
@@ -87,20 +87,20 @@ a {
     display: inline-block;
 }
 a#twitter_link:visited {
-    color: #FDFBFC;
+    color: #FFFFFF;
     transform: scale(1.0);
 }
 a#instagram_link:visited {
-    color: #FDFBFC;
+    color: #FFFFFF;
     transform: scale(1.0);
 }
 a#linkedin_link:visited {
-    color: #FDFBFC;
+    color: #FFFFFF;
     transform: scale(1.0);
 }
 @keyframes twitter_transform {
     from {
-        color: #FDFBFC;
+        color: #FFFFFF;
     }
     to {
         color: #1DA1F2;
@@ -127,7 +127,7 @@ a#linkedin_link:visited {
 
 @keyframes linkedin_transform {
     from {
-        color: #FDFBFC;
+        color: #FFFFFF;
     }
     to {
         color: #0077B5;
@@ -172,7 +172,7 @@ hr {
     background-image: linear-gradient(to right, transparent, #333333, transparent);
 }
 footer p {
-    color: #737373 !important;
+    color: #333333 !important;
     font-size: 16px !important;
     padding-bottom: 1em;
 }
