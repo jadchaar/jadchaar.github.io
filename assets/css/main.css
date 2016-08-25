@@ -22,14 +22,14 @@ p {
     line-height: 1.6 !important;
 }
 #primer h2 {
-    color: #000000 !important;
+    color: #111111 !important;
 }
 #primer p {
     color: #333333 !important;
     font-size: 16px !important;
 }
 #about h2 {
-    color: #000000 !important;
+    color: #111111 !important;
 }
 #about h4 {
     color: #333333 !important;
@@ -40,7 +40,7 @@ p {
     font-size: 16px !important;
 }
 #contact h2 {
-    color: #000000 !important;
+    color: #111111 !important;
 }
 #contact p {
     color: #333333 !important;
@@ -154,17 +154,18 @@ a#instagram_link:hover {
 a#linkedin_link:hover {
     animation: linkedin_transform 250ms linear both;
 }
-.link_styling a:link {
-    color: #0A3F70 !important;
+a.link_styling {
+    text-decoration: none !important;
 }
-.link_styling a:visited {
-    color: #0A3F70 !important;
+a.link_styling:link, a.link_styling:visited {
+    color: #265C83 !important;
 }
-.link_styling a:hover {
-    color: #032d53 !important;
+a.link_styling:hover {
+    color: #7FDBFF !important;
 }
-.link_styling a:active {
-    color: #0A3F70 !important;
+a.link_styling:active {
+    transition: color 300ms;
+    color: #0074D9 !important;
 }
 hr {
     border: 0 !important;
