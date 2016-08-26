@@ -1,3 +1,7 @@
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 body {
     font-family: 'Roboto', "Helvetica", "Arial", sans-serif !important;
     -moz-font-smoothing: grayscale;
@@ -127,7 +131,8 @@ a#linkedin_link:link, a#linkedin_link:visited {
     }
 }
 
-@keyframes instagram_transform {
+
+/*@keyframes instagram_transform {
     0% {
         color: #4D65D5;
     }
@@ -143,7 +148,7 @@ a#linkedin_link:link, a#linkedin_link:visited {
     100% {
         color: #FEE086;
     }
-}
+}*/
 
 @keyframes linkedin_transform {
     from {
@@ -163,7 +168,7 @@ a#twitter_link:hover {
 a#instagram_link:hover {
     transition: 250ms ease-in-out;
     transform: scale(1.1);
-    animation: instagram_transform 1000ms linear both infinite alternate;
+    /*animation: instagram_transform 1000ms linear both infinite alternate;*/
 }
 
 a#linkedin_link:hover {
