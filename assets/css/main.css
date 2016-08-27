@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', "Helvetica", "Arial", sans-serif !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
     -moz-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -262,4 +262,74 @@ footer p {
     header {
         background-image: url("../images/space_header_small.jpeg") !important;
     }
+}
+
+
+/* Twemoji Awesome Styles */
+
+.twa {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -.1em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1em 1em
+}
+
+.twa-lg {
+    height: 1.33em;
+    width: 1.33em;
+    margin: 0 .0665em 0 .133em;
+    vertical-align: -.133em;
+    background-size: 1.33em 1.33em
+}
+
+.twa-apple {
+    background-image: url(https://twemoji.maxcdn.com/svg/1f34e.svg)
+}
+
+.twa-clapper {
+    background-image: url(https://twemoji.maxcdn.com/svg/1f3ac.svg)
+}
+
+.twa-coffee {
+    background-image: url(https://twemoji.maxcdn.com/svg/2615.svg)
+}
+
+.twa-computer {
+    background-image: url(https://twemoji.maxcdn.com/svg/1f4bb.svg)
+}
+
+.twa-microscope {
+    background-image: url(https://twemoji.maxcdn.com/svg/1f52c.svg)
+}
+
+.twa-musical-note {
+    background-image: url(https://twemoji.maxcdn.com/svg/1f3b5.svg)
+}
+
+.twa-moneybag {
+    background-image: url(https://twemoji.maxcdn.com/svg/1f4b0.svg)
+}
+
+.twa-part-alternation-mark {
+    background-image: url(https://twemoji.maxcdn.com/svg/303d.svg)
+}
+
+.twa-pencil2 {
+    background-image: url(https://twemoji.maxcdn.com/svg/270f.svg)
+}
+
+.twa-raised-hands {
+    background-image: url(https://twemoji.maxcdn.com/svg/1f64c.svg)
+}
+
+.twa-rocket {
+    background-image: url(https://twemoji.maxcdn.com/svg/1f680.svg)
+}
+
+.twa-thought-balloon {
+    background-image: url(https://twemoji.maxcdn.com/svg/1f4ad.svg)
 }
