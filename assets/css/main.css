@@ -252,7 +252,7 @@ footer p {
 
 /* Sets the header background image to a lower resolution version. */
 
-@media only screen and (max-width: 2560px) {
+@media only screen and (min-width: 1601px) and (max-width: 2560px) {
     header {
         background-image: url("../images/space_header_medium.jpeg") !important;
     }
