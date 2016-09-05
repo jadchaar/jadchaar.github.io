@@ -6,6 +6,7 @@ body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
     -moz-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    font-weight: normal;
     text-rendering: optimizeLegibility;
     background-color: #FFFFFF !important;
 }
