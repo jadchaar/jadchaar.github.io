@@ -99,8 +99,12 @@ header h1 {
 }
 
 a {
-    cursor: pointer;
+    cursor: pointer !important;
     text-decoration: none;
+}
+
+.defaultCursor {
+  cursor: default;
 }
 
 .social_links_container {
