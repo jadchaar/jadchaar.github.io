@@ -21,8 +21,11 @@
     <meta property="og:description" content="Jad Chaar is a passionate technologist and aspiring entrepreneur from Ann Arbor, Michigan." />
     <meta property="og:image:secure_url" content="https://jadchaar.github.io/assets/images/profile_picture.jpg" />
 
+    <link rel="canonical" href="https://jadchaar.me">
+
     <link rel="icon" href="assets/images/favicons/favicon.png">
-    <link rel="canonical" href="https://jadchaar.me" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="mask-icon" href="assets/images/favicons/masked-favicon.svg" color="#0784E8">
 
     <title>Jad Chaar</title>
 
@@ -30,84 +33,107 @@
     <script>
         WebFont.load({
             google: {
-                families: ["Roboto: 300,400,500"]
+                families: ['Open Sans: 400,700', 'Space Mono: 700']
             }
         });
     </script>
     <noscript>
-      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Space+Mono:700" rel="stylesheet">
     </noscript>
     <script src="https://use.fontawesome.com/250cdff058.js"></script>
     <noscript>
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </noscript>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Minified CSS for Deployment -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="assets/css/main.min.css" rel="stylesheet">
-    <!-- <link href="assets/css/main.css" rel="stylesheet"> -->
+
+    <!-- Google Analytics -->
+    <script>
+        window.ga = window.ga || function() {
+            (ga.q = ga.q || []).push(arguments)
+        };
+        ga.l = +new Date;
+        ga('create', 'UA-89524432-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
 </head>
 
 <body>
+    <header>
+        <img id="pro_pic" src="assets/images/profile_picture.jpg" alt="Image of Jad Chaar" draggable="false" />
+        <h1 id="name-title">Jad Chaar</h1>
+        <div class="social-links unselectable default-cursor">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/jad_chaar" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/jad_chaar" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/jadchaar" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jadchaar" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
     <main>
-        <header class="unselectable defaultCursor">
-            <img id="pro_pic" src="assets/images/profile_picture.jpg" alt="Jad Chaar Picture" draggable="false" />
-            <h1>Jad Chaar</h1>
-            <h2>
-              <div id="social_links_container">
-                  <a class="social_links" id="twitter_link" href="https://twitter.com/jad_chaar"><i class="fa fa-twitter-square"></i></a>
-                  <a class="social_links" id="instagram_link" href="https://www.instagram.com/jad_chaar"><i class="fa fa-instagram"></i></a>
-                  <a class="social_links" id="linkedin_link" href="https://www.linkedin.com/in/jadchaar"><i class="fa fa-linkedin-square"></i></a>
-              </div>
-            </h2>
-        </header>
-        <div class="center_text small_screen_side_padding">
+        <div class="center_text small_screen_side_padding top-padding">
             <section id="primer">
                 <h2>Primer</h2>
                 <p>
-                    Hi, I'm Jad, an 18 year old technologist and aspiring entrepreneur currently living in <a href="https://en.wikipedia.org/wiki/Ann_Arbor,_Michigan" target="_blank" rel="noopener noreferrer" class="link_styling">Ann Arbor, Michigan</a>.
-                    I am interested in anything related to science, technology, and alternative energy. Scroll down to learn more about me. If you need to contact me, my contact information is located below.
+                    Hi, I'm Jad, an 18 year old technologist and aspiring entrepreneur from the historic village of <a href="https://en.wikipedia.org/wiki/Tarrytown,_New_York" target="_blank" rel="noopener noreferrer" class="link_styling">Tarrytown, New York</a>.
+                    I am currently living in <a href="https://en.wikipedia.org/wiki/Ann_Arbor,_Michigan" target="_blank" rel="noopener noreferrer" class="link_styling">Ann Arbor, Michigan</a> and enjoy anything related to science, technology, and alternative
+                    energy. Scroll down to learn more about me. If you need to contact me, my email is located below.
                 </p>
             </section>
 
+            <br />
+
             <section id="about">
-                <h2>About Me</h2>
+                <h2>About</h2>
                 <h4>Quick Facts</h4>
                 <p>
-                    <!-- <i class="e1a-desktop e1a-lg"></i>&nbsp;I enjoy building computers and exploring the latest technology and apps. -->
-                    <i class="twa twa-lg twa-computer"></i>&nbsp;I enjoy building computers and exploring the latest technology and apps.
+                    <i class="e1a e1a-2x e1a-desktop"></i> I love to build computers and explore the latest technology and apps.
                     <br />
-                    <i class="twa twa-lg twa-clapper"></i>&nbsp;I am a huge fan of Star Wars, Interstellar, Inception, and Fast &amp; Furious.
+                    <i class="e1a e1a-2x e1a-tickets"></i> My favorite movies series are Star Wars and Fast &amp; Furious.
                     <br />
-                    <i class="twa twa-lg twa-musical-note"></i>&nbsp;I listen to all types of music and used to play the clarinet.
+                    <i class="e1a e1a-2x e1a-musical_note"></i> I listen to all types of music and used to play the clarinet.
                     <br />
-                    <i class="twa twa-lg twa-coffee"></i>&nbsp;I am a big coffee and tea drinker. Lattes and Earl Grey for life.
+                    <i class="e1a e1a-2x e1a-coffee"></i> I am a big coffee and tea drinker. Lattes and Earl Grey for life.
                     <br />
-                    <i class="twa twa-lg twa-pencil2"></i>&nbsp;I enjoy creating, updating, and editing Wikipedia pages in my spare time.
+                    <i class="e1a e1a-2x e1a-writing_hand_tone3"></i> I enjoy creating and updating Wikipedia pages in my spare time.
                     <br />
-                    <i class="twa twa-lg twa-moneybag"></i>&nbsp;I aspire to one day found my own technology startup.
+                    <i class="e1a e1a-2x e1a-bulb"></i> I aspire to one day found my own technology startup.
                     <br />
-                    <i class="twa twa-lg twa-rocket"></i>&nbsp;I am fascinated by astrophysics and quantum mechanics.
+                    <i class="e1a e1a-2x e1a-rocket"></i> I am fascinated by astrophysics and quantum mechanics.
                     <br />
-                    <i class="twa twa-lg twa-raised-hands"></i>&nbsp;My role model is Elon Musk. #Musk2020
+                    <i class="e1a e1a-2x e1a-raised_hands_tone3"></i> My role model is Elon Musk. #Musk2020
                 </p>
 
                 <h4>Favorite Quotes</h4>
                 <p>
-                    <i class="twa twa-lg twa-microscope"></i>&nbsp;<q cite="https://en.wikiquote.org/wiki/Khalil_Gibran">Progress lies not in enhancing what is, but in advancing toward what will be.</q>&nbsp;&#126;&nbsp;Khalil Gibran&nbsp;&#126;&nbsp;
-                    <br />
-                    <i class="twa twa-lg twa-apple"></i>&nbsp;<q cite="https://en.wikiquote.org/wiki/Carl_Sagan">If you wish to make an apple pie from scratch, you must first invent the universe.</q>&nbsp;&#126;&nbsp;Carl Sagan&nbsp;&#126;&nbsp;
-                    <br />
-                    <i class="twa twa-lg twa-thought-balloon"></i>&nbsp;<q cite="http://www.starwars.com/news/the-starwars-com-10-best-yoda-quotes">Do. Or do not. There is no try.</q>&nbsp;&#126;&nbsp;Yoda&nbsp;&#126;&nbsp;
+                    <i class="e1a e1a-2x e1a-microscope"></i> <q cite="https://en.wikiquote.org/wiki/Khalil_Gibran">Progress lies not in enhancing what is, but in advancing toward what will be.</q> <br /> <strong><span class="right-align">&#126; Khalil Gibran &#126;</span></strong>
+                    <i class="e1a e1a-2x e1a-apple"></i> <q cite="https://en.wikiquote.org/wiki/Carl_Sagan">If you wish to make an apple pie from scratch, you must first invent the universe.</q> <br /> <strong><span class="right-align">&#126; Carl Sagan &#126;</span></strong>
+                    <i class="e1a e1a-2x e1a-thought_balloon"></i> <q cite="http://www.starwars.com/news/the-starwars-com-10-best-yoda-quotes">Do. Or do not. There is no try.</q> <br /> <strong><span class="right-align">&#126; Yoda &#126;</span></strong>
                 </p>
 
                 <h4>Future Plans</h4>
                 <p>
-                    I am currently attending the University of Michigan (Go Blue! <i class="twa twa-lg twa-part-alternation-mark"></i>). Over the next four years, I plan to major in computer engineering and minor in entrepreneurship. I aspire to found a technology startup in either New York City or San Fransisco aimed at solving a pervasive engineering and/or social challenge.
+                    I am currently attending the University of Michigan (Go Blue! <img id="michigan-logo" src="assets/images/block-m.svg" alt="Michigan Block M" /> ). Over the next four years, I plan to major in computer engineering and minor in entrepreneurship.
+                    I aspire to found a technology startup in either New York City or San Fransisco aimed at solving a pervasive engineering and/or social challenge.
                 </p>
             </section>
 
+            <br />
+
             <section id="contact">
-                <h2>Contact Me</h2>
+                <h2>Contact</h2>
                 <p>
                     If you have any questions or would like to chat, email me at <a href="mailto:jad.chaar@gmail.com" class="link_styling">jad.chaar@gmail.com</a>. I will try to respond in a timely fashion.
                 </p>
@@ -115,11 +141,13 @@
         </div>
     </main>
 
-    <footer class="footer_center_text small_screen_side_padding">
-        <hr />
-        <p>
-            Coded with <i class="twa twa-heart"></i> in New York
-        </p>
+    <footer>
+        <div class="center_text small_screen_side_padding">
+            <hr />
+            <p>
+                Coded with <i class="e1a e1a-lg e1a-heart"></i> in Ann Arbor
+            </p>
+        </div>
     </footer>
 </body>
 

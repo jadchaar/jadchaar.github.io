@@ -1,70 +1,99 @@
-.center_text, .footer_center_text {
-    margin: 0 auto;
-    max-width: 40em;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: .01em;
+    -moz-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-rendering: auto;
+    background-color: #FFF;
 }
 
-.social_links_container, header {
+.center_text {
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+.top-padding {
+    padding-top: 2em;
+}
+
+#name-title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+}
+
+main p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+main h2 {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 36px;
+}
+
+main h4 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+footer {
+    font-family: 'Open Sans';
+    font-weight: 400;
     text-align: center;
 }
 
-a#instagram_link:hover, a#linkedin_link:hover, a#twitter_link:hover {
-    transition: 250ms ease-in-out;
-    transform: scale(1.1);
-}
-
-.social_links, header h1 {
+header h1 {
     color: #FFF!important;
 }
 
-#pro_pic, .social_links, .twa {
-    display: inline-block;
-}
-
-html {
-    -webkit-tap-highlight-color: transparent;
-}
-
-body {
-    font-family: Roboto, Helvetica, Arial, sans-serif!important;
-    -moz-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-    background-color: #FFF!important;
-}
-
-.footer_center_text {
-    text-align: center;
-}
-
 p {
-    line-height: 1.6!important;
+    line-height: 2!important;
 }
 
-#about h2, #contact h2, #primer h2 {
+main h2 {
     color: #111!important;
 }
 
-#about p, #contact p, #primer p, q {
+main p, q {
     color: #333!important;
     font-size: 16px!important;
 }
 
-#about h4 {
+main h4 {
     color: #333!important;
-    font-size: 20px!important;
+    font-size: 24px!important;
+}
+
+strong {
+    font-weight: bold;
 }
 
 header {
-    background-color: #2E3453!important;
-    background-image: url(../images/space_header_large.jpeg);
+    background-color: #0784E8;
+    background-image: url(../images/background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     max-width: none;
-    /*padding: 2vw 2em*/
-    padding: 3vw 2em;
+    padding: 5vw 2em;
+    text-align: center;
 }
+
+#pro_pic {
+    height: 175px;
+    width: 175px;
+    vertical-align: top;
+    border: 5px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+/* Syling for social links */
 
 .unselectable {
     -moz-user-select: none;
@@ -72,65 +101,58 @@ header {
     -ms-user-select: none;
 }
 
-.social_links {
-    letter-spacing: 3px;
+.default-cursor {
+    cursor: default;
 }
 
-#pro_pic {
-    height: 150px;
-    width: 150px;
-    vertical-align: top;
-    border: 5px solid #FFF;
-    border-radius: 50%;
+.social-links {
+    font-size: 28px;
 }
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li a i {
+    color: #fff;
+    transition: all 200ms ease-in-out;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a i:link {
+    color: #fff;
+    opacity: 1.0;
+}
+
+ul li a i:visited {
+    color: #fff;
+    opacity: 1.0;
+}
+
+ul li a i:hover {
+    opacity: 0.7;
+}
+
+ul li a i:active {
+    color: #fff;
+    opacity: 1.0;
+}
+
+
+/* Syling for non-social links */
 
 a {
     cursor: pointer!important;
     text-decoration: none;
-}
-
-.defaultCursor {
-    cursor: default;
-}
-
-a#instagram_link, a#linkedin_link, a#twitter_link, a.link_styling {
-    text-decoration: none!important;
-}
-
-a#instagram_link:link, a#instagram_link:visited, a#linkedin_link:link, a#linkedin_link:visited, a#twitter_link:link, a#twitter_link:visited {
-    color: #FFF;
-}
-
-@keyframes twitter_transform {
-    from {
-        color: #FFF;
-    }
-    to {
-        color: #1DA1F2;
-    }
-}
-
-@keyframes linkedin_transform {
-    from {
-        color: #FFF;
-    }
-    to {
-        color: #0077B5;
-    }
-}
-
-a#twitter_link:hover {
-    animation: twitter_transform 250ms linear both;
-}
-
-a#linkedin_link:hover {
-    animation: linkedin_transform 250ms linear both;
-}
-
-a#instagram_link:active, a#linkedin_link:active, a#twitter_link:active {
-    transition: all .3s ease-in-out;
-    color: #FFF!important;
-    transform: scale(1);
 }
 
 a.link_styling:link, a.link_styling:visited {
@@ -146,128 +168,119 @@ a.link_styling:active {
     color: #0074D9!important;
 }
 
+.right-align {
+    display: block;
+    text-align: right;
+}
+
 hr {
-    border: 0!important;
-    height: 1px!important;
+    border: 0;
+    height: 1px;
     background-image: linear-gradient(to right, transparent, #333, transparent);
 }
 
+br {
+    display: block;
+    line-height: 2em;
+}
+
+#about h4 {
+    padding-top: .25em;
+}
+
 footer p {
-    color: #333!important;
-    font-size: 16px!important;
-    padding-bottom: 1em;
+    color: #333;
+    font-size: 16px;
 }
 
-@media only screen and (max-width:700px) {
-    .small_screen_side_padding {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
+#michigan-logo {
+    width: 2em;
+    height: 2em;
 }
 
-@media only screen and (min-width:1440px) {
-    .center_text, .footer_center_text {
-        max-width: 50em!important;
-    }
-}
-
-@media only screen and (min-width:1601px) and (max-width:2560px) {
-    header {
-        background-image: url(../images/space_header_medium.jpeg)!important;
-    }
-}
-
-@media only screen and (max-width:1600px) {
-    header {
-        background-image: url(../images/space_header_small.jpeg)!important;
-    }
-}
-
-
-/*[class*=e1a-] {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  margin: -.2ex .05em 0 .1em;
-  line-height: normal;
-  vertical-align: middle;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 1em 1em; }
-
-.e1a-lg {
-  width: 1.25em;
-  height: 1.25em;
-  margin: -0.25ex 0.0625em 0 0.125em;
-  background-size: 1.25em 1.25em; }
-
-.e1a-desktop {
-  background-image: url("//cdn.jsdelivr.net/emojione/assets/svg/1f5a5.svg"); }*/
-
-.twa {
-    height: 1em;
+.e1a {
+    display: inline-block;
     width: 1em;
-    margin: 0 .05em 0 .1em;
-    vertical-align: -.1em;
+    height: 1em;
+    margin: -.2ex .05em 0 .1em;
+    line-height: normal;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: 1em 1em;
 }
 
-.twa-lg {
-    height: 1.33em;
-    width: 1.33em;
-    margin: 0 .0665em 0 .133em;
-    vertical-align: -.133em;
-    background-size: 1.33em 1.33em;
+.e1a-lg {
+    width: 1.25em;
+    height: 1.25em;
+    margin: -0.25ex 0.0625em 0 0.125em;
+    background-size: 1.25em 1.25em;
 }
 
-.twa-apple {
-    background-image: url(https://twemoji.maxcdn.com/svg/1f34e.svg);
+.e1a-2x {
+    width: 2em;
+    height: 2em;
+    margin: -0.4ex 0.1em 0 0.2em;
+    background-size: 2em 2em;
 }
 
-.twa-clapper {
-    background-image: url(https://twemoji.maxcdn.com/svg/1f3ac.svg);
+.e1a-point_right {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f449.svg");
 }
 
-.twa-coffee {
-    background-image: url(https://twemoji.maxcdn.com/svg/2615.svg);
+.e1a-desktop {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f5a5.svg");
 }
 
-.twa-computer {
-    background-image: url(https://twemoji.maxcdn.com/svg/1f4bb.svg);
+.e1a-tickets {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f39f.svg");
 }
 
-.twa-heart {
-    background-image: url(https://twemoji.maxcdn.com/svg/2764.svg);
+.e1a-musical_note {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f3b5.svg");
 }
 
-.twa-microscope {
-    background-image: url(https://twemoji.maxcdn.com/svg/1f52c.svg);
+.e1a-coffee {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/2615.svg");
 }
 
-.twa-musical-note {
-    background-image: url(https://twemoji.maxcdn.com/svg/1f3b5.svg);
+.e1a-writing_hand_tone3 {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/270d-1f3fd.svg");
 }
 
-.twa-moneybag {
-    background-image: url(https://twemoji.maxcdn.com/svg/1f4b0.svg);
+.e1a-bulb {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f4a1.svg");
 }
 
-.twa-part-alternation-mark {
-    background-image: url(https://twemoji.maxcdn.com/svg/303d.svg);
+.e1a-rocket {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f680.svg");
 }
 
-.twa-pencil2 {
-    background-image: url(https://twemoji.maxcdn.com/svg/270f.svg);
+.e1a-raised_hands_tone3 {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f64c-1f3fd.svg");
 }
 
-.twa-raised-hands {
-    background-image: url(https://twemoji.maxcdn.com/svg/1f64c.svg);
+.e1a-microscope {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f52c.svg");
 }
 
-.twa-rocket {
-    background-image: url(https://twemoji.maxcdn.com/svg/1f680.svg);
+.e1a-apple {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f34e.svg");
 }
 
-.twa-thought-balloon {
-    background-image: url(https://twemoji.maxcdn.com/svg/1f4ad.svg);
+.e1a-thought_balloon {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f4ad.svg");
+}
+
+.e1a-heart {
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/2764.svg");
+}
+
+@media only screen and (max-width:768px) {
+    .small_screen_side_padding {
+        padding: 1em!important;
+    }
+    br {
+        line-height: 1em!important;
+    }
 }
