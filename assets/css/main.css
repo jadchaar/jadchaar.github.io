@@ -1,7 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Space Mono', monospace;
-    letter-spacing: .01em;
     -moz-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -14,7 +13,7 @@ body {
     max-width: 50em;
 }
 
-.top-padding {
+main {
     padding-top: 2em;
 }
 
@@ -60,7 +59,8 @@ main h2 {
 
 main p, q {
     color: #333!important;
-    font-size: 16px!important;
+    font-size: 18px!important;
+    /*letter-spacing: 0.01em;*/
 }
 
 main h4 {
@@ -106,7 +106,7 @@ header {
 }
 
 .social-links {
-    font-size: 28px;
+    font-size: 36px;
 }
 
 ul {
@@ -184,7 +184,7 @@ br {
     line-height: 2em;
 }
 
-#about h4 {
+main h4 {
     padding-top: .25em;
 }
 
