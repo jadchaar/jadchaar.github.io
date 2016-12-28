@@ -43,6 +43,7 @@ footer {
     font-family: 'Open Sans';
     font-weight: 400;
     text-align: center;
+    padding: 1em;
 }
 
 header h1 {
@@ -106,7 +107,8 @@ header {
 }
 
 .social-links {
-    font-size: 36px;
+    font-size: 28px;
+    /*font-size: 36px;*/
 }
 
 ul {
@@ -190,7 +192,7 @@ main h4 {
 
 footer p {
     color: #333;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #michigan-logo {
@@ -277,8 +279,11 @@ footer p {
 }
 
 @media only screen and (max-width:768px) {
-    .small_screen_side_padding {
-        padding: 1em!important;
+    .small_screen_side_padding_main {
+        padding: 0 1em!important;
+    }
+    .small_screen_side_padding_footer{
+      padding: 1em!important;
     }
     br {
         line-height: 1em!important;
