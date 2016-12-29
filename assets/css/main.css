@@ -123,6 +123,7 @@ ul li {
 
 ul li a i {
     color: #fff;
+    -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
 }
 
@@ -166,6 +167,7 @@ a.link_styling:hover {
 }
 
 a.link_styling:active {
+    -webkit-transition: color .3s;
     transition: color .3s;
     color: #0074D9!important;
 }
@@ -178,6 +180,7 @@ a.link_styling:active {
 hr {
     border: 0;
     height: 1px;
+    background-image: -webkit-linear-gradient(left, transparent, #333, transparent);
     background-image: linear-gradient(to right, transparent, #333, transparent);
 }
 
@@ -282,8 +285,8 @@ footer p {
     .small_screen_side_padding_main {
         padding: 0 1em!important;
     }
-    .small_screen_side_padding_footer{
-      padding: 1em!important;
+    .small_screen_side_padding_footer {
+        padding: 1em!important;
     }
     br {
         line-height: 1em!important;
