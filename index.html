@@ -35,20 +35,31 @@
 
     <title>Jad Chaar</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFontConfig = {
+            google: {
+                families: ['Open Sans:400,700', 'Space Mono:700']
+            }
+        };
+
+        (function(d) {
+            var wf = d.createElement('script'),
+                s = d.scripts[0];
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
             google: {
                 families: ['Open Sans: 400,700', 'Space Mono: 700']
             }
         });
-    </script>
+    </script> -->
     <noscript>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Space+Mono:700" rel="stylesheet">
-    </noscript>
-    <script src="https://use.fontawesome.com/250cdff058.js"></script>
-    <noscript>
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </noscript>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="assets/css/main.min.css" rel="stylesheet">
@@ -69,20 +80,20 @@
 <body>
     <header>
         <img id="pro_pic" src="assets/images/profile_picture.jpg" alt="Image of Jad Chaar" draggable="false" />
-        <h1 id="name-title">Jad Chaar</h1>
+        <h1 id="name-title">Jad Chaar</h1> <br />
         <div class="social-links unselectable default-cursor">
             <ul>
                 <li>
-                    <a href="https://twitter.com/jad_chaar" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </li>
+                    <a href="https://twitter.com/jad_chaar" target="_blank" rel="noopener noreferrer"><img src="assets/images/twitter.svg" /></a>
+                </li>&nbsp;
                 <li>
-                    <a href="https://www.instagram.com/jad_chaar" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </li>
+                    <a href="https://www.instagram.com/jad_chaar/" target="_blank" rel="noopener noreferrer"><img src="assets/images/instagram.svg" /></a>
+                </li>&nbsp;
                 <li>
-                    <a href="https://github.com/jadchaar" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-                </li>
+                    <a href="https://github.com/jadchaar" target="_blank" rel="noopener noreferrer"><img src="assets/images/github.svg" /></a>
+                </li>&nbsp;
                 <li>
-                    <a href="https://www.linkedin.com/in/jadchaar" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/jadchaar" target="_blank" rel="noopener noreferrer"><img src="assets/images/linkedin.svg" /></a>
                 </li>
             </ul>
         </div>

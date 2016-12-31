@@ -3,7 +3,6 @@ body {
     font-family: 'Space Mono', monospace;
     -moz-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-rendering: auto;
     background-color: #FFF;
 }
@@ -106,8 +105,8 @@ header {
     cursor: default;
 }
 
-.social-links {
-    font-size: 28px;
+ul li img {
+    height: 24px;
 }
 
 ul {
@@ -120,7 +119,7 @@ ul li {
     display: inline-block;
 }
 
-ul li a i {
+ul li a img {
     color: #fff;
     -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
@@ -130,30 +129,30 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a i:link {
+ul li a img:link {
     color: #fff;
     opacity: 1.0;
 }
 
-ul li a i:visited {
+ul li a img:visited {
     color: #fff;
     opacity: 1.0;
 }
 
 @media (hover: hover) {
-    ul li a i:hover {
+    ul li a img:hover {
         opacity: 0.7;
     }
 }
 
 @media (hover: none) {
-    ul li a i:hover {
+    ul li a img:hover {
         color: #fff;
         opacity: 1.0;
     }
 }
 
-ul li a i:active {
+ul li a img:active {
     color: #fff;
     opacity: 1.0;
 }
@@ -172,6 +171,18 @@ a.link_styling:link, a.link_styling:visited {
 
 a.link_styling:hover {
     color: #7FDBFF!important;
+}
+
+@media (hover: hover) {
+    a.link_styling:hover {
+        color: #7FDBFF!important;
+    }
+}
+
+@media (hover: none) {
+    a.link_styling:hover {
+        color: #265C83!important;
+    }
 }
 
 a.link_styling:active {
