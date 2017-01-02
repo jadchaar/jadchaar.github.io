@@ -5,11 +5,13 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: auto;
     background-color: #FFF;
+    margin: 0;
+    padding: 0;
 }
 
 .center_text {
     margin: 0 auto;
-    max-width: 50em;
+    max-width: 45em;
 }
 
 main {
@@ -25,17 +27,24 @@ main {
 main p {
     font-family: 'Open Sans';
     font-weight: 400;
+    margin: 0;
+}
+
+main h4{
+  margin: 0.5em 0;
 }
 
 main h2 {
     font-family: 'Space Mono';
     font-weight: 700;
     font-size: 36px;
+    line-height: 0;
 }
 
 main h4 {
     font-family: 'Open Sans';
     font-weight: 400;
+    line-height: 0.8;
 }
 
 footer {
@@ -60,7 +69,6 @@ main h2 {
 main p, q {
     color: #333!important;
     font-size: 18px!important;
-    /*letter-spacing: 0.01em;*/
 }
 
 main h4 {
@@ -78,8 +86,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*max-width: none;*/
-    padding: 5vw 2em;
+    padding: 3vw 2em;
     text-align: center;
 }
 
@@ -220,6 +227,7 @@ footer p {
 #michigan-logo {
     width: 2em;
     height: 2em;
+    vertical-align: middle;
 }
 
 .e1a {
@@ -318,4 +326,10 @@ footer p {
     br {
         line-height: 1em!important;
     }
+}
+
+@media only screen and (min-width:2560px) {
+  .center_text {
+      max-width: 60em!important;
+  }
 }
