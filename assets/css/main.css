@@ -30,8 +30,8 @@ main p {
     margin: 0;
 }
 
-main h4{
-  margin: 0.5em 0;
+main h4 {
+    margin: 0.5em 0;
 }
 
 main h2 {
@@ -257,63 +257,51 @@ footer p {
 }
 
 .e1a-desktop {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f5a5.svg");*/
-    background-image: url("../images/emoji/1f5a5.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f5a5.svg");
 }
 
 .e1a-tickets {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f39f.svg");*/
-    background-image: url("../images/emoji/1f39f.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f39f.svg");
 }
 
 .e1a-musical_note {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f3b5.svg");*/
-    background-image: url("../images/emoji/1f3b5.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f3b5.svg");
 }
 
 .e1a-coffee {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/2615.svg");*/
-    background-image: url("../images/emoji/2615.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/2615.svg");
 }
 
 .e1a-writing_hand_tone3 {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/270d-1f3fd.svg");*/
-    background-image: url("../images/emoji/270d-1f3fd.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/270d-1f3fd.svg");
 }
 
 .e1a-bulb {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f4a1.svg");*/
-    background-image: url("../images/emoji/1f4a1.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f4a1.svg");
 }
 
 .e1a-rocket {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f680.svg");*/
-    background-image: url("../images/emoji/1f680.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f680.svg");
 }
 
 .e1a-raised_hands_tone3 {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f64c-1f3fd.svg");*/
-    background-image: url("../images/emoji/1f64c-1f3fd.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f64c-1f3fd.svg");
 }
 
 .e1a-microscope {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f52c.svg");*/
-    background-image: url("../images/emoji/1f52c.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f52c.svg");
 }
 
 .e1a-apple {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f34e.svg");*/
-    background-image: url("../images/emoji/1f34e.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f34e.svg");
 }
 
 .e1a-thought_balloon {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f4ad.svg");*/
-    background-image: url("../images/emoji/1f4ad.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/1f4ad.svg");
 }
 
 .e1a-heart {
-    /*background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/2764.svg");*/
-    background-image: url("../images/emoji/2764.svg");
+    background-image: url("https://cdn.jsdelivr.net/emojione/assets/svg/2764.svg");
 }
 
 @media only screen and (max-width:768px) {
@@ -329,7 +317,7 @@ footer p {
 }
 
 @media only screen and (min-width:2560px) {
-  .center_text {
-      max-width: 60em!important;
-  }
+    .center_text {
+        max-width: 60em!important;
+    }
 }
