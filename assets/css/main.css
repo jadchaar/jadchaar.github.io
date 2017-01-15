@@ -72,7 +72,7 @@ main h4 {
 
 header {
     background-color: #0784E8;
-    background-image: url(../images/background.svg);
+    background-image: url(../images/background-large.svg);
     /*background-image: url(assets/images/background.svg);*/
     background-position: center center;
     background-repeat: no-repeat;
@@ -315,6 +315,9 @@ footer p {
 }
 
 @media only screen and (max-width:768px) {
+    header {
+        background-image: url(../images/background-small.svg)!important;
+    }
     .small_screen_side_padding_main {
         padding: 0 1em!important;
     }
