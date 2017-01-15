@@ -30,6 +30,10 @@ main p {
     margin: 0;
 }
 
+main h4 {
+    margin: 0.5em 0;
+}
+
 main h2 {
     font-family: 'Space Mono';
     font-weight: 700;
@@ -40,11 +44,14 @@ main h2 {
 main h4 {
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 24px!important;
-    color: #333!important;
     line-height: 0.8;
-    margin: 0.5em 0;
-    padding-top: .25em;
+}
+
+footer {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-align: center;
+    padding: 1em;
 }
 
 header h1 {
@@ -62,6 +69,15 @@ main h2 {
 main p, q {
     color: #333!important;
     font-size: 18px!important;
+}
+
+main h4 {
+    color: #333!important;
+    font-size: 24px!important;
+}
+
+strong {
+    font-weight: bold;
 }
 
 header {
@@ -184,10 +200,6 @@ a.link_styling:active {
     color: #0074D9!important;
 }
 
-strong {
-    font-weight: bold;
-}
-
 .right-align {
     display: block;
     text-align: right;
@@ -205,10 +217,8 @@ br {
     line-height: 2em;
 }
 
-footer {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    text-align: center;
+main h4 {
+    padding-top: .25em;
 }
 
 footer p {
