@@ -47,6 +47,13 @@ main h4 {
     line-height: 0.8;
 }
 
+footer {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-align: center;
+    padding: 1em;
+}
+
 header h1 {
     color: #FFF!important;
 }
@@ -59,7 +66,7 @@ main h2 {
     color: #111!important;
 }
 
-main p {
+main p, q {
     color: #333!important;
     font-size: 18px!important;
 }
@@ -67,13 +74,15 @@ main p {
 main h4 {
     color: #333!important;
     font-size: 24px!important;
-    padding-top: .25em;
+}
+
+strong {
+    font-weight: bold;
 }
 
 header {
     background-color: #0784E8;
-    background-image: url(../images/background-large.svg);
-    /*background-image: url(assets/images/background.svg);*/
+    background-image: url(../images/background.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,6 +112,10 @@ header {
     cursor: default;
 }
 
+ul li img {
+    height: 24px;
+}
+
 ul {
     padding: 0;
     list-style-type: none;
@@ -113,53 +126,43 @@ ul li {
     display: inline-block;
 }
 
-ul li svg {
-    height: 24px;
+ul li a img {
+    color: #fff;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 ul li a {
     text-decoration: none;
 }
 
-ul li a svg {
-    fill: #fff;
-    -webkit-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out;
-}
-
-ul li a svg:link {
-    fill: #fff;
+ul li a img:link {
+    color: #fff;
     opacity: 1.0;
 }
 
-ul li a svg:visited {
-    fill: #fff;
+ul li a img:visited {
+    color: #fff;
     opacity: 1.0;
 }
 
 @media (hover: hover) {
-<<<<<<< HEAD
-    ul li a svg:hover {
-        /*opacity: 0.6;*/
-        fill: #0784E8;
+    ul li a img:hover {
+        opacity: 0.6;
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
-=======
-    ul li a img:hover {
-        opacity: 0.7;
->>>>>>> parent of 929dd1c... Improved hover effects on social icons
     }
 }
 
 @media (hover: none) {
-    ul li a svg:hover {
-        fill: #fff;
+    ul li a img:hover {
+        color: #fff;
         opacity: 1.0;
     }
 }
 
-ul li a svg:active {
-    fill: #fff;
+ul li a img:active {
+    color: #fff;
     opacity: 1.0;
 }
 
@@ -197,21 +200,9 @@ a.link_styling:active {
     color: #0074D9!important;
 }
 
-
-/*Above the fold CSS ENDS*/
-
-main q {
-    color: #333!important;
-    font-size: 18px!important;
-}
-
 .right-align {
     display: block;
     text-align: right;
-}
-
-strong {
-    font-weight: bold;
 }
 
 hr {
@@ -226,10 +217,8 @@ br {
     line-height: 2em;
 }
 
-footer {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    text-align: center;
+main h4 {
+    padding-top: .25em;
 }
 
 footer p {
@@ -238,11 +227,9 @@ footer p {
 }
 
 #michigan-logo {
-    fill: #FFCB05;
     width: 2em;
     height: 2em;
     vertical-align: middle;
-    height: 36px;
 }
 
 .e1a {
@@ -320,9 +307,6 @@ footer p {
 }
 
 @media only screen and (max-width:768px) {
-    header {
-        background-image: url(../images/background-small.svg)!important;
-    }
     .small_screen_side_padding_main {
         padding: 0 1em!important;
     }
