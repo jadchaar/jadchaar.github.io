@@ -9,32 +9,25 @@ body {
     padding: 0;
 }
 
-.center_text {
+main {
     margin: 0 auto;
     max-width: 45em;
-}
-
-main {
     padding-top: 2em;
 }
 
-#name-title {
+header h1 {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 48px;
-}
-
-main p {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    margin: 0;
+    color: #FFF;
 }
 
 main h2 {
     font-family: 'Space Mono';
     font-weight: 700;
     font-size: 36px;
-    line-height: 0;
+    color: #111;
+    margin: 0;
 }
 
 main h4 {
@@ -42,26 +35,18 @@ main h4 {
     font-weight: 400;
     line-height: 0.8;
     margin: 0.5em 0;
-    color: #333!important;
-    font-size: 24px!important;
+    color: #333;
+    font-size: 24px;
     padding-top: .25em;
 }
 
-header h1 {
-    color: #FFF!important;
-}
-
 p {
-    line-height: 2!important;
-}
-
-main h2 {
-    color: #111!important;
-}
-
-main p {
-    color: #333!important;
-    font-size: 18px!important;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    line-height: 2;
+    margin: 0;
 }
 
 header {
@@ -75,7 +60,7 @@ header {
     text-align: center;
 }
 
-#pro_pic {
+header img {
     height: 175px;
     width: 175px;
     vertical-align: top;
@@ -109,40 +94,34 @@ ul li {
 
 ul li a {
     text-decoration: none;
-}
-
-ul li a svg {
-    fill: #fff;
     -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
 }
 
-ul li a svg:link {
+ul li a:link {
     fill: #fff;
     opacity: 1.0;
 }
 
-ul li a svg:visited {
+ul li a:visited {
     fill: #fff;
     opacity: 1.0;
 }
 
 @media (hover: hover) {
-    ul li a svg:hover {
+    ul li a:hover {
         opacity: 0.6;
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
     }
 }
 
 @media (hover: none) {
-    ul li a svg:hover {
+    ul li a:hover {
         fill: #fff;
         opacity: 1.0;
     }
 }
 
-ul li a svg:active {
+ul li a:active {
     fill: #fff;
     opacity: 1.0;
 }
@@ -151,32 +130,28 @@ ul li a svg:active {
 /* Syling for non-social links */
 
 a {
-    cursor: pointer!important;
+    cursor: pointer;
     text-decoration: none;
 }
 
 a.link_styling:link, a.link_styling:visited {
-    color: #265C83!important;
-}
-
-a.link_styling:hover {
-    color: #7FDBFF!important;
+    color: #265C83;
 }
 
 @media (hover: hover) {
     a.link_styling:hover {
-        color: #7FDBFF!important;
+        color: #7FDBFF;
     }
 }
 
 @media (hover: none) {
     a.link_styling:hover {
-        color: #265C83!important;
+        color: #265C83;
     }
 }
 
 a.link_styling:active {
     -webkit-transition: color .3s;
     transition: color .3s;
-    color: #0074D9!important;
+    color: #0074D9;
 }
