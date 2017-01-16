@@ -46,18 +46,3 @@ br {
     vertical-align: middle;
     display: inline-block;
 }
-
-@media only screen and (max-width:768px) {
-    main {
-        padding: 1em!important;
-    }
-    br {
-        line-height: 1em!important;
-    }
-}
-
-@media only screen and (min-width:2560px) {
-    main {
-        max-width: 60em!important;
-    }
-}

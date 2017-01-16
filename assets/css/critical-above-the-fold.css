@@ -58,6 +58,10 @@ header {
     background-size: cover;
     padding: 3vw 2em;
     text-align: center;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
 }
 
 header img {
@@ -69,18 +73,23 @@ header img {
     display: inline-block;
 }
 
+@media only screen and (max-width:768px) {
+    main {
+        padding: 1em!important;
+    }
+    br {
+        line-height: 1em!important;
+    }
+}
+
+@media only screen and (min-width:2560px) {
+    main {
+        max-width: 60em!important;
+    }
+}
+
 
 /* Syling for social links */
-
-.unselectable {
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
-.default-cursor {
-    cursor: default;
-}
 
 ul {
     padding: 0;
@@ -98,12 +107,7 @@ ul li a {
     transition: all 200ms ease-in-out;
 }
 
-ul li a:link {
-    fill: #fff;
-    opacity: 1.0;
-}
-
-ul li a:visited {
+ul li a:link, a:visited {
     fill: #fff;
     opacity: 1.0;
 }
@@ -130,7 +134,7 @@ ul li a:active {
 /* Syling for non-social links */
 
 a {
-    cursor: pointer;
+    cursor: pointer!important;
     text-decoration: none;
 }
 
