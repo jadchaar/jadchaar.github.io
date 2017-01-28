@@ -159,3 +159,12 @@ a.link_styling:active {
     transition: color .3s;
     color: #0074D9;
 }
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, transparent, #333, transparent);
+    background-image: linear-gradient(to right, transparent, #333, transparent);
+    margin-top: 2em;
+    margin-bottom: 0;
+}
