@@ -99,8 +99,6 @@ ul {
 ul li {
     list-style-type: none;
     display: inline-block;
-    margin: 0;
-    padding: 0;
 }
 
 ul li a {
