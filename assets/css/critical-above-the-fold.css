@@ -30,6 +30,15 @@ main h2 {
     margin: 0;
 }
 
+
+/* Special CSS for FireFox */
+
+@media screen and (-moz-images-in-menus:0) {
+    main h2:not(#ignore-top-padding) {
+        padding-top: .5em;
+    }
+}
+
 main h4 {
     font-family: 'Open Sans';
     font-weight: 400;
@@ -51,8 +60,10 @@ p {
 
 header {
     background-color: #0784E8;
-    /*background-image: url(../images/background.svg);*/
-    background-image: url(assets/images/background.svg);
+    /*background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);*/
+    /*background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);*/
+    background-image: -webkit-linear-gradient(315deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+    background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,9 +118,21 @@ ul li a {
     transition: all 200ms ease-in-out;
 }
 
+ul li a svg {
+    padding: 0 .5em;
+}
+
 ul li a:link, a:visited {
     fill: #fff;
     opacity: 1.0;
+}
+
+@media screen and (-moz-images-in-menus:0) {
+    /* Alternative hover syntax until
+  Firefox support hover: hover */
+    ul li a:hover {
+        opacity: 0.6;
+    }
 }
 
 @media (hover: hover) {
@@ -140,6 +163,14 @@ a {
 
 a.link_styling:link, a.link_styling:visited {
     color: #265C83;
+}
+
+@media screen and (-moz-images-in-menus:0) {
+    /* Alternative hover syntax until
+  Firefox support hover: hover */
+    a.link_styling:hover {
+        color: #7FDBFF;
+    }
 }
 
 @media (hover: hover) {
