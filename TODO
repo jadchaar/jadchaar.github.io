@@ -1,8 +1,0 @@
-* Gulp: Automatically minify HMTL, CSS, JS
-* Gulp: Pass JS into Babel to transpile for compatibility with older browsers
-* GitHub CI to run gulp tasks and push to pages branch for hosting (need to set up branch for hosting)
-
-* Add dark mode to site!
-* Auto detect dark and light mode
-
-change font to monospace: class font-monospace (get rid of google font)

@@ -1,7 +1,3 @@
-body {
-    font-family: 'Open Sans', sans-serif !important;
-}
-
 /*
 Nice colors with dark mode:
 Blue: #4452fb
@@ -11,10 +7,8 @@ Red: #ee472f
 
 @media (prefers-color-scheme: dark) {
     body {
-        /* background-color: #18191a; */
         background-color: #1f1f20;
         color: #efefef;
-        /* color: #f5f6f7; */
     }
 }
 
@@ -68,18 +62,6 @@ header {
         background-color: #031d2e;
         background: linear-gradient(150deg, #031d2e 0%, #004e92, #04619f 75%);
     }
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.regular {
-    font-weight: 400;
-}
-
-.space {
-    font-family: 'Space Mono', monospace !important;
 }
 
 /* Separator Begin */
