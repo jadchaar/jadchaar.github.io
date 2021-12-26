@@ -20,7 +20,8 @@ const getStarCountForRepo = async (repoName, idToInsertStarCount) => {
 };
 
 getStarCountForRepo("arrow-py/arrow", "arrow-star-count");
-getStarCountForRepo("jadchaar/sec-edgar-downloader", "sec-star-count");
+getStarCountForRepo("jadchaar/sec-edgar-downloader", "sec-edgar-downloader-star-count");
+getStarCountForRepo("jadchaar/sec-cik-mapper", "sec-cik-mapper-star-count");
 
 // const adjustForDarkMode = () => {
 //     const themingButton = document.getElementById("theming-button");
