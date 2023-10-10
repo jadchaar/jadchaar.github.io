@@ -21,6 +21,7 @@ const getStarCountForRepo = async (repoName, idToInsertStarCount) => {
 
 getStarCountForRepo("arrow-py/arrow", "arrow-star-count");
 getStarCountForRepo("jadchaar/sec-edgar-downloader", "sec-edgar-downloader-star-count");
+getStarCountForRepo("jadchaar/sec-edgar-api", "sec-edgar-api-star-count");
 getStarCountForRepo("jadchaar/sec-cik-mapper", "sec-cik-mapper-star-count");
 
 // const adjustForDarkMode = () => {
